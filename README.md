@@ -21,24 +21,16 @@ git clone https://github.com/BHUVANESHWARAN-J/smart-contact-collector.git
 cd smart-contact-collector
 
 shell
-Copy
-Edit
+
 
 ### 2. Install Python Dependencies
 
 pip install -r requirements.txt
 
-yaml
-Copy
-Edit
-
 Or manually:
 
 pip install streamlit gspread oauth2client
 
-less
-Copy
-Edit
 
 ### 3. Google Sheets Setup
 
@@ -55,9 +47,7 @@ Place `service_account.json` in the project root, but ensure it is listed in `.g
 
 streamlit run app.py
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -72,9 +62,7 @@ smart-contact-collector/
 ├── .gitignore # Ignore sensitive files
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -83,10 +71,6 @@ Edit
 Ensure the following line exists in `.gitignore`:
 
 service_account.json
-
-yaml
-Copy
-Edit
 
 This prevents accidental exposure of credentials on GitHub.
 
