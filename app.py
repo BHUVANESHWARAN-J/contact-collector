@@ -43,6 +43,3 @@ if st.button("Generate Contacts VCF"):
 
     except Exception as e:
         st.error(f"❌ Error: {e}")
-git add .
-git commit -m "Updated code"
-git push origin main
