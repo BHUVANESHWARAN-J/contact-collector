@@ -55,11 +55,17 @@ streamlit run app.py
 
 smart-contact-collector/
 ├── app.py # Main Streamlit app
+
 ├── generate.py # Dynamic form and sheet logic
+
 ├── utils.py # Helper functions
+
 ├── config.py # Configuration settings
+
 ├── service_account.json # Google API credentials (private)
+
 ├── .gitignore # Ignore sensitive files
+
 └── README.md # Project documentation
 
 
